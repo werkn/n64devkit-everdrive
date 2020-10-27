@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  libdragon-build:
+    build:
+      context: .
+    container_name: 'N64DevKit'
+    tty: true
+    restart: 'always'
+    volumes:
+      - ${HOMEBREW-./homebrew}:/libdragon/homebrew

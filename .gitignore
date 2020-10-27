@@ -1,0 +1,6 @@
+pifdata.bin
+**/cen64/*.exe
+**/cen64/*.dll
+*.bin
+*.elf
+*.o
