@@ -35,7 +35,7 @@ choco install github-desktop
 1.  From a PowerShell admin terminal run the following: 
 
 ```powershell
-git clone https://github.com/werkn/n64devkit
+git clone https://github.com/werkn/n64devkit-everdrive
 cd N64DevKit
 .\Install-N64DevKit.ps1  
 ```
