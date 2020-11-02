@@ -26,6 +26,9 @@ choco install docker-desktop
 
 #install github-desktop
 choco install github-desktop
+
+#install git-scm
+choco install git
 ```
 
 1.  From a PowerShell admin terminal run the following: 
