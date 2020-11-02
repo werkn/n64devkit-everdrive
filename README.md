@@ -16,14 +16,10 @@ If you don't have these installed you can use the script below to install these 
 
 ```powershell
 #install chocolatey
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 #install vscode
 choco install vscode
-
-#add remote container plugin
-code --install-extension ms-vscode-remote.remote-containers
 
 #install docker-desktop
 choco install docker-desktop
@@ -35,8 +31,11 @@ choco install github-desktop
 1.  From a PowerShell admin terminal run the following: 
 
 ```powershell
+#add remote container plugin, you'll need to re-open your shell
+code --install-extension ms-vscode-remote.remote-containers
+
 git clone https://github.com/werkn/n64devkit-everdrive
-cd N64DevKit
+cd N64devkit-everdrive
 .\Install-N64DevKit.ps1  
 ```
 2.  After the script completes you can close the shell.
