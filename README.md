@@ -29,6 +29,9 @@ choco install github-desktop
 
 #install git-scm
 choco install git
+
+Write-Host -ForegroundColor Green "Log out and back into for docker-users group to be created."
+Write-Host -ForegroundColor Green "Allow Docker-Desktop to start and configure for WSL2 before moving to next step"
 ```
 
 1.  From a PowerShell admin terminal run the following: 
