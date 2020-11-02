@@ -38,7 +38,7 @@ choco install git
 code --install-extension ms-vscode-remote.remote-containers
 
 git clone https://github.com/werkn/n64devkit-everdrive
-cd N64devkit-everdrive
+cd N64devkit-everdrive\N64DevKit
 .\Install-N64DevKit.ps1  
 ```
 2.  After the script completes you can close the shell.
