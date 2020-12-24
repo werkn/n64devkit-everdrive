@@ -1,6 +1,27 @@
 # N64 Homebrew Development Kit Setup
 
-[Original Instructions / Blog](https://werkncode.io)
+Hi all, hopefully your looking to do homebrew N64 development using the Libdragon library.  I've assembled here setup instructions / scripts for Windows (WIP) and Ubuntu.  I'm also working on a YouTube series on the basics of working with Libdragon (WIP).
+
+# Examples 
+
+Listed below is the source code for Libdragon apps contained in this repo:
+
+| Name / ROM  	| Screenshot | Example Covers | Link   	
+|---	|---	     |---   |---
+| hello_world.z64  	| ![hello_world](https://github.com/werkn/n64devkit-everdrive/homebrew/0_hello_world/screenshot.png)  	| basic game loop, initialization  	     | [hello_world]()
+| n64paint.z64  	| ![n64_paint](https://github.com/werkn/n64devkit-everdrive/homebrew/1_n64_paint/end/screenshot.png)  	| sprite loading, input, animation, timers, rumble, multiple controllers  	     | [n64paint]()
+| 2droguelike.z64  	| ![2droguelike](https://github.com/werkn/n64devkit-everdrive/res/images/wip.png)  	| sprite loading, input, animation, timers, rumble, multiple controllers, procedural generation, audio  	     | [2droguelike]()
+| twinstick.z64  	| ![twinstick](https://github.com/werkn/n64devkit-everdrive/res/images/wip.png)  	| dual stick using two controllers, audio  	     | [twinstick]()
+
+# Ubuntu 20.04 Setup
+
+[WIP / YouTube Playlist](https://youtube.com/playlist?list=PLtQmMQGpPR6I8mpCemyRqRbxpwHKYsXYt)
+
+Environment setup is there, although currently its all done manually.  Could be scripted and I'm open to pull requests on this repo if someone wants to do that.
+
+# Windows 10 Setup
+
+Note:  I've moved away from using Windows and to Ubuntu 20.04 for development.  As of Dec 25 2020 these instructions still work but may not work in the future.
 
 The following instructions will help you to setup a Docker container based N64 DevKit allowing you to deploy to actual N64 hardware using the open-source Libdragon library.  These instructions are for Windows 10 but could be easily ported to Linux or Mac OS.  There is an open-source .NET Core variant of the Everdrive ROM deployment on the official Krikkz Github repo.
 
