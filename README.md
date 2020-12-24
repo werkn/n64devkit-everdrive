@@ -8,10 +8,10 @@ Listed below is the source code for Libdragon apps contained in this repo:
 
 | Name / ROM  	| Screenshot | Example Covers | Link   	
 |---	|---	     |---   |---
-| hello_world.z64  	| ![hello_world](https://github.com/werkn/n64devkit-everdrive/homebrew/0_hello_world/screenshot.png)  	| basic game loop, initialization  	     | [hello_world]()
-| n64paint.z64  	| ![n64_paint](https://github.com/werkn/n64devkit-everdrive/homebrew/1_n64_paint/end/screenshot.png)  	| sprite loading, input, animation, timers, rumble, multiple controllers  	     | [n64paint]()
-| 2droguelike.z64  	| ![2droguelike](https://github.com/werkn/n64devkit-everdrive/res/images/wip.png)  	| sprite loading, input, animation, timers, rumble, multiple controllers, procedural generation, audio  	     | [2droguelike]()
-| twinstick.z64  	| ![twinstick](https://github.com/werkn/n64devkit-everdrive/res/images/wip.png)  	| dual stick using two controllers, audio  	     | [twinstick]()
+| hello_world.z64  	| ![hello_world](https://raw.githubusercontent.com/werkn/n64devkit-everdrive/main/N64DevKit/homebrew/0_hello_world/screenshot.png)  	| basic game loop, initialization  	     | [hello_world](https://github.com/werkn/n64devkit-everdrive/tree/main/N64DevKit/homebrew/0_hello_world)
+| n64paint.z64  	| ![n64_paint](https://raw.githubusercontent.com/werkn/n64devkit-everdrive/homebrew/1_n64_paint/end/screenshot.png)  	| sprite loading, input, animation, timers, rumble, multiple controllers  	     | [n64paint](https://github.com/werkn/n64devkit-everdrive/tree/main/N64DevKit/homebrew/1_n64_paint)
+| 2droguelike.z64  	| ![2droguelike](https://raw.githubusercontent.com/werkn/n64devkit-everdrive/res/images/wip.png)  	| sprite loading, input, animation, timers, rumble, multiple controllers, procedural generation, audio  	     | [2droguelike]()
+| twinstick.z64  	| ![twinstick](https://raw.githubusercontent.com/werkn/n64devkit-everdrive/res/images/wip.png)  	| dual stick using two controllers, audio  	     | [twinstick]()
 
 # Ubuntu 20.04 Setup
 
