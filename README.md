@@ -38,7 +38,7 @@ We're going to assume you're using a fresh install of Windows 10.  We'll have to
 
 **If you want to use CEN64** 
 
->I suggest you setup CEN64 first by following [this tutorial]().  This setup guide is fairly long without also needing to setup CEN64.  Also the process to setup CEN64 is indicative of the technical challenge of the remaining setup guide.  The remainder of this guide is fairly technical but I think its doable for most people with a moderate Linux/Windows experience.  The CEN64 setup is a good way to 'wet-your-feet'.
+>I suggest you setup CEN64 first by following [this tutorial](https://werkn.github.io/posts/setup-cen64/).  This setup guide is fairly long without also needing to setup CEN64.  Also the process to setup CEN64 is indicative of the technical challenge of the remaining setup guide.  The remainder of this guide is fairly technical but I think its doable for most people with a moderate Linux/Windows experience.  The CEN64 setup is a good way to 'wet-your-feet'.
 
 ![https://media.giphy.com/media/3o6Ztl5XZaXwjl6WEE/giphy.gif](https://media.giphy.com/media/3o6Ztl5XZaXwjl6WEE/giphy.gif)
 
@@ -195,7 +195,7 @@ That's it, your DONE!
 
 **(OPTIONAL)**
 
-If you've already installed CEN64 following my guide then you should be able to open a PowerShell window enter the following to run the ROM (to setup CEN64 follow [this tutorial]()):
+If you've already installed CEN64 following my guide then you should be able to open a PowerShell window enter the following to run the ROM (to setup CEN64 follow [this tutorial](https://werkn.github.io/posts/setup-cen64/)):
 ```powershell
 cd ~\n64\n64devkit-everdrive\N64DevKit\homebrew\0_hello_world
 c64 -RomFile hello_world.z64
