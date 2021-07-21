@@ -1,0 +1,13 @@
+The assets used in this project come from the Unity Asset Store, specifically the link provided below.
+
+I have read the license included with assets and interpreted it to indicate fair use as long as the assets are not resold and 
+only distributed as part of an electronic application or game.
+
+I am claiming fair use in this context, if this is in error please open a pull request on this repository.
+
+-----------------------------------------
+
+I am not the original author but have linked to their sites below to provide attribution for their hard work :)
+
+Unity Asset Store:
+https://assetstore.unity.com/packages/essentials/tutorial-projects/2d-roguelike-29825
