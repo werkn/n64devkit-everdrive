@@ -20,10 +20,10 @@ OBJCOPY = $(GCCN64PREFIX)objcopy
 
 ifeq ($(N64_BYTE_SWAP),true)
 ROM_EXTENSION = .v64
-N64_FLAGS = -b -l 2M -h $(HEADERPATH)/$(HEADERNAME) -o $(PROG_NAME)$(ROM_EXTENSION)
+N64_FLAGS = -b -l 24M -h $(HEADERPATH)/$(HEADERNAME) -o $(PROG_NAME)$(ROM_EXTENSION)
 else
 ROM_EXTENSION = .z64
-N64_FLAGS = -l 2M -h $(HEADERPATH)/$(HEADERNAME) -o $(PROG_NAME)$(ROM_EXTENSION)
+N64_FLAGS = -l 24M -h $(HEADERPATH)/$(HEADERNAME) -o $(PROG_NAME)$(ROM_EXTENSION)
 endif
 
 #your program name, if you get something like "circular depency" ensure you don't have any
