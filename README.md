@@ -1,3 +1,7 @@
+>❗️❗️❗️This tutorial and the resources is likely out of date, tread with caution as some things may no longer work❗️❗️❗️
+
+>Major changes in the Libdragon API likely mean you need to use the Libdragon CLI in place of the Docker container we build as part of this tutorial.  The remaining steps likely work but will need some light modification.
+
 # N64 Homebrew Development Kit Setup
 
 Hi all, hopefully your looking to do homebrew N64 development using the Libdragon library.  I've assembled here setup instructions / scripts for Windows (WIP) and Ubuntu.  I'm also working on a YouTube series on the basics of working with Libdragon (WIP).
